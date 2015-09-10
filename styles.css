@@ -1,6 +1,19 @@
+#theatre {
+	background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top, center; 
+	background-color: black;	
+}
+
+#main {
+  position: relative;
+  top: 50px;
+
+}
 .seat {
 	color: black;
-	background-color: white;
+	background-color: rgba(105,105,105, 0.5);
 	border-color: rgba(0,0,255, 0.25);
 	border-style: double;
 	border-width: 2px; 
@@ -13,19 +26,21 @@
 
 .invis{
 	
-	background-color: white;
-	border-color: white;
-	border-style: double;
+	background-color: rgba( 0, 0, 0, 0);
+	border-color: rgba( 0, 0, 0, 0);
+	/* border-style: double;
 	border-width: 2px; 
-	border-radius: 10px;
+	border-radius: 10px; */
 	width:23.75%; 
 	height:150px;
 	padding:25px;
 	margin:0.5%;
+	opacity: 100;
+
 }
 .handicap{
 	background-color: rgb(240, 248,255);
-	border-color: rgb(0,0a,255, 0.25);
+	border-color: rgba( 0, 0, 255, 0.25);
 	border-style: double;
 	border-width: 2px; 
 	border-radius: 10px;
