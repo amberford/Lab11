@@ -19,6 +19,8 @@ $(document).ready(function(){
     function submitForm(e) {
     	e.preventDefault();
 
+        $('.seat').removeClass('inactive');
+
     	var name = $('#name').val();
     	var email = $('#email').val();
 
