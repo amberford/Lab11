@@ -49,3 +49,12 @@
 	padding:25px;
 	margin:0.5%;
 }
+
+#formEntry {
+	display: none;
+}
+
+.inactive {
+	opacity: 0.25;
+	pointer-events: none;
+}
