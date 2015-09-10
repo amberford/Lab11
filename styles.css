@@ -1,0 +1,36 @@
+.seat {
+	color: black;
+	background-color: white;
+	border-color: rgba(0,0,255, 0.25);
+	border-style: double;
+	border-width: 2px; 
+	border-radius: 10px;
+	width:23.75%; 
+	height:150px;
+	padding:25px;
+	margin:0.5%;
+}
+
+.invis{
+	
+	background-color: white;
+	border-color: white;
+	border-style: double;
+	border-width: 2px; 
+	border-radius: 10px;
+	width:23.75%; 
+	height:150px;
+	padding:25px;
+	margin:0.5%;
+}
+.handicap{
+	background-color: rgb(240, 248,255);
+	border-color: rgb(0,0a,255, 0.25);
+	border-style: double;
+	border-width: 2px; 
+	border-radius: 10px;
+	width:23.75%; 
+	height:150px;
+	padding:25px;
+	margin:0.5%;
+}
