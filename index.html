@@ -7,46 +7,52 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<div id="main" class="container">	
-  	<div class="row">
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-  	</div>
-  	  	<div class="row">
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-  	</div>
-  	  	<div class="row">
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-  	</div>
-  	  	<div class="row">
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-		<div class=".col-md-3 seat avail"></div>
-  	</div>
-</div>
 
-<!--FORM-->
+	<div id="main" class="container">	
 
-<div id="form" class="formStyle">
-  <form id="formEntry">
-    <input type="text" name="name" placeholder="Full Name (required)" id="name"/>
-    <input type="email" name="email" placeholder="Email address (required)" id="email" />
-    <button onclick="confirmation()" id="submit">RESERVE</button>
-   </form>
+	  	<div class="row">
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+	  	</div>
+	  	<div class="row">
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+	  	</div>
+	  	<div class="row">
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+	  	</div>
+	  	<div class="row">
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+			<div class=".col-md-3 seat avail"></div>
+	  	</div>
 
-    <p id="confirmation"></p>
-    <ul></ul> 
-</div>
+		<!--FORM-->
+		<form id="formEntry">
+		  <div class="form-group">
+		    <label for="name">Name</label>
+		    <input type="email" class="form-control" id="name" placeholder="Your Name">
+		  </div>
+		  <div class="form-group">
+		    <label for="email">Email address</label>
+		    <input type="email" class="form-control" id="email" placeholder="Email">
+		  </div>
+		  <button type="submit" id="submit" class="btn btn-default" onclick="confirmation()">Submit</button>
 
-<script type="text/javascript" src="script.js"></script>
+		  <p id="confirmation"></p>
+		    <ul></ul> 
+		</form>
+
+	</div> <!-- end #main .container -->
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
